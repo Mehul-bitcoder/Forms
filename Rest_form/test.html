@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Form</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Book Your Table Now</h1>
+        <div class="inner">
+            <img src="book_left_image.jpg" alt="">
+            <div class="form-detail">
+                <form action="#">
+                    <div class="userdetails">
+                        <label for="Username">Full Name</label><br>
+                        <input type="text" class="focus" name="Username" placeholder="Enter Full name">
+                    </div>
+                    <div class="userdetails">
+                        <label for="Mobile">Mobile No</label><br>
+                        <input type="tel" class="focus" name="mobile" id="mobile" placeholder="Enter Mobile No">
+                    </div>
+                    <br>
+                    <div class="userdetails">
+                        <label for="date">Enter Date</label><br>
+                        <input type="date" class="focus1" name="date-time" id="date">
+                    </div>
+                    <div class="userdetails">
+                        <label for="time">Enter Time</label><br>
+                        <input type="time" class="focus1" name="date-time" id="time">
+                        <!-- <input type="datetime" name="date-time" id="time" placeholder="Enter 24-hour Format"> -->
+                    </div>
+                    <br>
+                    <div class="userdetails">
+                        <label for="persons">Persons</label><br>
+                        <input type="number" class="focus" min="1" max="10" name="persons" id="persons">
+                    </div>
+                    <div class="userdetails">
+                        <label for="Event">Event</label><br>
+                        <input list="event" class="focus" name="event" id="Event">
+
+                        <datalist id="event">
+                            <option value="Dinner">
+                            <option value="Anniversary">
+                            <option value="party">
+                            <option value="Proposal-dinner">
+                            <option value="Candle-light">
+                        </datalist>
+                    </div>
+                    <br><br>
+                    <div class="userdetails">
+                        <input type="submit" class="button" value="Book A Table">
+                    </div>
+                    
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

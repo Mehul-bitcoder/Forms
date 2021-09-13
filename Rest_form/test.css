@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: #DB5461;
+}
+.container{
+    height: 600px;
+    width: 100%;
+    background-image: url(book-bg.jpg);
+    margin-top: 65px;
+    z-index: -1;
+}
+.container > h1{
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+.inner{
+    height: 290px;
+    width: 750px;
+    background-color: #F2D0A4;
+    margin: auto;
+}
+.inner > img{
+    display: inline-block;
+    float: left;
+}
+.userdetails{
+    display: inline-block;
+    width: 150px;
+    margin: 3px;
+}
+.focus{
+    padding: 3px;
+    margin-top: 3px;
+}
+.focus1{
+    padding: 5px;
+    margin-top: 5px;
+    width: 145px;
+}
+.button{
+    padding: 10px 30px;
+    margin-left: 90px;
+    background-color: #DB5461;
+    border: 0px;
+    color: white;
+    
+}
+.form-detail{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px 0px 0px 25px;
+}
