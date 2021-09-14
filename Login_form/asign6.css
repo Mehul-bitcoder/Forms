@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-color: #ADD8E6;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+
+}
+.outer{
+    /* border: 1px solid black; */
+    height: 550px;
+    width: 400px;
+    margin: 4rem auto;
+    background-color: white;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    margin-top: 2rem;
+    letter-spacing: 5px;
+}
+.inner{
+    
+    height: 500px;
+    padding: 20px;
+    margin: 10px 30px 10px;
+    padding: 20px;
+}
+.form-input{
+    margin-top: 30px;
+    border-bottom: 1px solid grey;
+    padding: 0.5rem;
+    
+}
+i{
+    color: grey;
+}
+
+input{
+    margin-left: 10px;
+    border: transparent;
+}
+input:focus{
+    outline: none;
+}
+input:focus::placeholder{
+    color:transparent;
+}
+
+input[type="submit"]{
+    padding: 15px 120px;
+    margin:  48px auto 0px;
+    background-color: #ADD8E6;
+    color: white;
+}
+
+.img1{
+    position: absolute;
+    top: 160px;
+    left: 380px;
+}
+.img2{
+    position: absolute;
+    top: 381px;
+    right: 490px;
+    z-index: -1;    
+}
+::placeholder{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
