@@ -1,3 +1,2 @@
 # Rest_form
-
-Includes a Simple form template for booking a table in Restaurnat using html and css
+Includes Simple Form That are created with html and css
